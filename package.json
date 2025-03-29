@@ -1,0 +1,41 @@
+{
+  "name": "nft-vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "compile": "bun x hardhat compile",
+    "test": "bun x hardhat test",
+    "deploy": "bun x hardhat ignition deploy ignition/modules/MyContract.ts"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@ethersproject/abi": "^5.8.0",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/node": "^22.13.14",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "eslint-plugin-vue": "^10.0.0",
+    "globals": "^16.0.0",
+    "hardhat": "^2.22.19",
+    "postcss": "^8.5.3",
+    "tailwindcss": "3",
+    "typechain": "^8.3.2",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-eslint-parser": "^10.1.1",
+    "vue-tsc": "^2.2.4"
+  }
+}
