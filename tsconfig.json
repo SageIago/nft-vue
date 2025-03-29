@@ -19,6 +19,5 @@
     "strict": true,
       "resolveJsonModule": true
     },
-    "include": ["src", "hardhat.config.cjs", "scripts", "test"]
   }
 

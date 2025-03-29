@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "build": "vue-tsc --noEmit && bun run vite build",
     "preview": "vite preview",
     "compile": "bun x hardhat compile",
     "test": "bun x hardhat test",
@@ -36,6 +36,6 @@
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
     "vue-eslint-parser": "^10.1.1",
-    "vue-tsc": "^2.2.4"
+    "vue-tsc": "^2.2.8"
   }
 }
