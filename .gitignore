@@ -13,6 +13,11 @@ dist-ssr
 *.local
 bun.lock
 
+contracts
+ignition
+scripts
+test
+*.txt
 
 # Editor directories and files
 .vscode/*
