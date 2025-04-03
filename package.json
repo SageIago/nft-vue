@@ -1,4 +1,5 @@
 {
+  "_comment": "This is the package.json file for the Marketplace Vue project.",
   "name": "nft-vue",
   "private": true,
   "version": "0.0.0",
@@ -7,10 +8,12 @@
     "dev": "vite",
     "build": "vue-tsc --noEmit && bun run vite build",
     "preview": "vite preview",
+    "_comment": "--This is for Bun Users--",
     "compile": "bun x hardhat compile",
     "test": "bun x hardhat test",
     "deploy": "bun x hardhat ignition deploy ignition/modules/MyContract.ts",
     "add-ui": "bunx --bun shadcn-vue@latest add"
+
   },
   "dependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
@@ -18,9 +21,11 @@
     "clsx": "^2.1.1",
     "dotenv": "^16.4.7",
     "ethers": "^6.13.5",
+    "pinia": "^3.0.1",
     "reka-ui": "^2.1.1",
     "tailwind-merge": "^3.0.2",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.8.0",
